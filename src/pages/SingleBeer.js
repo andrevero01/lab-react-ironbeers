@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 function SingleBeer(props) {
   const { id } = useParams();
